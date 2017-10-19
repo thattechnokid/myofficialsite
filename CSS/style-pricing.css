@@ -1,0 +1,83 @@
+/*Pricing Area Starts Here*/
+.pricing-container{
+  width: 100%;
+  position:relative;
+  height: 1160px;
+  /*padding:0 40px;*/
+}
+.price-col-1{
+  padding:0 20px;
+  position: absolute;
+  width:33.33333333333%;
+  left:0px;
+  /*margin-right: 20px;*/
+}
+.price-col-2{
+  padding:0 20px;
+  position: absolute;
+  left:31.333333%;
+  width:33.33333333333%;
+  /*margin-right: 20px;*/
+}
+.price-col-3{
+  padding:0 20px;
+  position: absolute;
+  left: 62.666667%;
+  width:33.33333333333%;
+  /*margin-right: 20px;*/
+}
+.price-logos{
+  width: 58%;
+  position: relative;
+  left: 91px;
+}
+.payment-type{
+  position:relative;
+  left: -1%;
+  text-align: center;
+}
+.payment-price{
+  position:relative;
+  left: -1%;
+  text-align: center;
+}
+.price-clr{
+  color: #279C2E;
+}
+.payment-desc{
+  position: relative;
+    left: -2%;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 26px;
+}
+.paypal-embed-code{
+  position:relative;
+  left:33%;
+  width:185px;
+}
+.spacer-even-pay{
+  width:auto;
+  margin-top: 60px;
+}
+.unsubscribe{
+  position:relative;
+  width: 90%;
+  height:300px;
+  left:30px;
+}
+.unsubscribe hr{
+  width:95%;
+  margin-bottom: 50px;
+}
+.unsubscribe h3{
+  position:absolute;
+  left:35px;
+  text-align: justify;
+}
+.paypal-unsub{
+  margin-top: 13%;
+  position: relative;
+  left: 3%;
+}
+/*Pricing Area ENDS*/
