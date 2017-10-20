@@ -70,6 +70,9 @@ textarea#message-area{
   color: #09C;
   cursor: pointer;
 }
+.submit-btn:focus{
+  outline: none;
+}
 .reset-btn{
   width: 80px;
   position: absolute;
@@ -87,6 +90,9 @@ textarea#message-area{
   background: #d44040;
   color: white;
   cursor: pointer;
+}
+.reset-btn:focus{
+  outline: none;
 }
 /*FORM ENDS*/
 
