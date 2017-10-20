@@ -33,26 +33,29 @@ body{
 	list-style-type: none;
 	display: block;
 	margin: 13px 0px 0px 0px;
+	position: relative;
+
 }
 .brand{
-	color: white;
-	float: left;
-	text-decoration: none;
-	margin-right: 50px;
-	margin-top: 13px;
+	/*float: left;*/
+	position: absolute;
+  left: 8%;
+  top: -10px;
+	padding-right: 10%;
 }
 .site-logo{
-	float: left;
 	height:75px;
 	position: absolute;
-  top: 17px;
+  top: 0px;
 }
 .nav-item{
 	float: left;
 	color: white;
 	text-decoration: none;
-	margin-right: 10px;
 	padding: 14px 16px;
+	margin-right: 12px;
+	position: relative;
+	left: 193px;
 }
 .nav-item:hover{
 	border:2px white solid;
