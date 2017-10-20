@@ -41,6 +41,12 @@ body{
 	margin-right: 50px;
 	margin-top: 13px;
 }
+.site-logo{
+	float: left;
+	height:75px;
+	position: absolute;
+  top: 17px;
+}
 .nav-item{
 	float: left;
 	color: white;
@@ -97,6 +103,7 @@ body{
 .home-link{
 	text-decoration: none;
 	color: white;
+	position: absolute;
 }
 /*------------HOVER END------------*/
 .current-page{
