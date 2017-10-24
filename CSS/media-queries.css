@@ -1,0 +1,22 @@
+/*For index.html*/
+@media screen and (max-width: 1920px) and (min-width: 1366px){
+    html{
+        min-height: 88%;
+    }
+    .nav-item{
+        left: 13%;
+    }
+    .hero{
+        background-size: cover;
+        height:1005px;
+        position: relative;
+        bottom: 0;
+    }
+    .hero-content{
+        position: absolute;
+	    left:35%;
+	    top:39%;
+    }
+    
+}
+/*END of index.html*/
