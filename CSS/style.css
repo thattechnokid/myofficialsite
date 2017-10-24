@@ -5,7 +5,7 @@
     }
     .hero{
         height:2000px;
-        background-size: contain;
+        background-size: auto;
     }
 }
 /*END of Media Queries*/
