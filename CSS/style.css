@@ -1,3 +1,14 @@
+/*Start of Media Queries*/
+@media only screen and (max-width: 1920) and (min-width: 1366){
+    .nav-item{
+        left: 200px;
+    }
+    .hero{
+        height:2000px;
+        background-size: contain;
+    }
+}
+/*END of Media Queries*/
 @font-face {
 	font-family: 'Origicide';
 	src:url(../fonts/Origicide.ttf);
