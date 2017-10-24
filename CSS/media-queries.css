@@ -1,4 +1,3 @@
-/*For index.html*/
 @media screen and (max-width: 1920px) and (min-width: 1366px){
     html{
         min-height: 88%;
@@ -17,6 +16,10 @@
 	    left:35%;
 	    top:39%;
     }
-    
+    .about-img{
+        left:42%;
+    }
+    .about-name{
+        left:41%;
+    }
 }
-/*END of index.html*/
