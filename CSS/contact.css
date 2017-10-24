@@ -13,7 +13,7 @@
 }
 .form-area{
   position: relative;
-  background: #3A53C5;
+  background: #3a98c5;
   padding:10px;
   border-radius: 15px;
   margin:auto;
@@ -56,8 +56,8 @@ textarea#message-area{
   width: 120px;
   position: absolute;
   bottom: -50px;
-  background: #09C;
-  color: #efefef;
+  background: #394fc8;
+  color: white;
   height: 30px;
   border-radius: 15px;
   border: 1px solid #999;
@@ -66,8 +66,8 @@ textarea#message-area{
 }
 
 .submit-btn:hover {
-  background: #efefef;
-  color: #09C;
+  background: white;
+  color: #394fc8;
   cursor: pointer;
 }
 .submit-btn:focus{
@@ -78,8 +78,8 @@ textarea#message-area{
   position: absolute;
   bottom: -48px;
   right: 45%;
-  background: #09C;
-  color: #efefef;
+  background: #394fc8;
+  color: white;
   height: 26px;
   border-radius: 15px;
   border: 1px solid #999;

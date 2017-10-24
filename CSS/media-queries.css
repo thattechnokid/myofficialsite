@@ -5,6 +5,7 @@
     .nav-item{
         left: 13%;
     }
+/*    Index.html*/
     .hero{
         background-size: cover;
         height:1005px;
@@ -16,10 +17,57 @@
 	    left:35%;
 	    top:39%;
     }
+/*    END of Index.html*/
+    
+/*    About.html*/
+    #sub-menu-1{
+        top: 14.9%;
+        left: 23.5%;
+    }
     .about-img{
         left:42%;
     }
     .about-name{
         left:41%;
+    }
+    .about-text{
+        padding: 0px 50px;
+    }
+    .line{
+        width:95%;
+    }
+    .sites-container{
+        height:1550px;
+    }
+    .sites-col-1{
+        position:absolute;
+        left:7%;
+    }
+    .sites-col-2{
+        position: absolute;
+        left:55%;
+        width:44%;
+        padding:5px;
+    }
+    .sites-images{
+        width:87%;
+    }
+    .sites-txt{
+        margin-top:4%;
+        margin-bottom: 10%;
+        right: 4%;
+        line-height:0;
+    }
+    .ccbc-gap{
+        margin-bottom: 13.5%;
+    }
+/*    END of about.html*/
+    
+/*    Contact.html*/
+    .form-area{
+        width:50%;
+    }
+    .center-img{
+        left:33%;
     }
 }
