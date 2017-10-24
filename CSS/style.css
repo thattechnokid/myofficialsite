@@ -8,6 +8,7 @@
         background-size: contain;
         background-origin: content-box;
         background-position: bottom;
+        margin-bottom:0;
     }
 }
 /*END of Media Queries*/
