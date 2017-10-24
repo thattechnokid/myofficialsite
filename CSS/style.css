@@ -6,6 +6,7 @@
     .hero{
         height:2000px;
         background-size: contain;
+        background-position: top;
     }
 }
 /*END of Media Queries*/
