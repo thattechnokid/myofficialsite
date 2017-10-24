@@ -7,8 +7,8 @@
         left: 200px;
     }
     .hero{
-        background-size: contain;
-        background-origin: content-box;
+        background-size: cover;
+        height:930px;
         margin-bottom:0;
     }
 }
@@ -26,6 +26,7 @@ body{
 	width: 100%;
 	padding:0;
 	margin:0;
+    
 }
 .page-content{
 	margin-bottom: 75px;
