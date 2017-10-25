@@ -1,6 +1,6 @@
-/*Start of Media Queries*/
-
-/*END of Media Queries*/
+.mobile-navbar{
+    display:none;
+}
 @font-face {
 	font-family: 'Origicide';
 	src:url(../fonts/Origicide.ttf);

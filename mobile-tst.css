@@ -1,0 +1,54 @@
+body{
+  padding: 0;
+  margin:0;
+}
+.mobile-navbar{
+  width: 100%;
+  height: 75px;
+  background: rgba(58, 126, 227, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#hamburger{
+  position: fixed;
+  right: 1%;
+  top: 1.4px;
+  display: inline-block;
+  background: #3A53C5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mob-main-item{
+  width: 72px;
+  height: 72px;
+  position: relative;
+}
+.ham-ln{
+  position: absolute;
+  height: 4px;
+  width: 41%;
+  border-radius: 10px;
+  left: 29%;
+  background-color: white;
+  transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+.ln01{
+  top:34%;
+}
+.ln02{
+  top:49%;
+}
+.ln03{
+  top:63%;
+}
+.mob-menu.close .ln01{
+  transform: rotate(45deg);
+  top: 47.6%;
+  left: 27%;
+}
+.mob-menu.close .ln02, .mob-menu.close .ln03 {
+  transform: rotate(-45deg);
+  top: 48%;
+  left: 28%;
+}

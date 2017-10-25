@@ -1,120 +1,121 @@
-html{
-  scroll-behavior: smooth;
-}
-body{
-  background-color: #E3E3E3;
-}
-/*START of Main Container*/
-.main-container{
-  width:100%;
-}
-.spacer-sml{
-  width:auto;
-  /*margin-top: 75px;*/
-  height:37.5px;
-}
-.spacer{
-  width:auto;
-  /*margin-top: 75px;*/
-  height:75px;
-}
-.spacer-2x{
-  width:auto;
-  /*margin-top: 75px;*/
-  height:150px;
-}
-.small-page-header{
-  margin-top: 75px;
-  height:200px;
-  text-align:center;
-  color: white;
-  padding-top:10px;
-  background-image: url(../images/splash.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.welcome-abt-ln{
-  font-family: 'Origicide';
-  letter-spacing: 3px;
-  font-weight: 50;
-  margin-top: 57px;
-  padding: 20px;
-  position: absolute;
-  left: 35%;
-  width: 27%;
-  border-radius: 15px;
-  background-color: rgba(0,0,0,0.6);
-}
-.about-container{
-  display: block;
-  margin-top:40px;
-}
-.about-img{
-  position:absolute;
-  left:38%;
-}
-.img-cm{
-  height: 300px;
-  border-radius: 50%;
-}
-.about-name{
-  position:absolute;
-  left: 36%;
-  margin-top: 242px;
-}
-.name-cm{
-  text-align: center;
-  font-size:55px;
-  font-style: oblique;
-}
-/*END OF MAIN CONTAINER*/
-.line{
-  margin-top: 525px;
-  margin-bottom:10px;
-}
-.about-text{
-  padding:0 20px;
-  font-size: 17px;
-  line-height: 34px;
-}
-/*This is where my previous websites go*/
-.sites-container{
-  position: relative;
-  top: 0;
-  height: 1243px;
-  width: 100%;
-}
-.sites-col-1{
-  position: absolute;
-  width: 44%;
-  padding: 5px;
-  left: 80px;
-}
-.sites-col-2{
-    position: absolute;
-    width: 42%;
-    /* padding: 20px; */
-    /* top: 0; */
-    left: 728px;
-    margin-top: 6px;
-    /* margin-right: 200px; */
-}
-.sites-images{
-  width:87%;
-}
-.dudes-txt{
-  position: relative;
-  text-align: center;
-  margin-bottom: 59px;
-  right: 35px;
-  font-size: 24px;
-  line-height: 30px;
-}
-.sites-txt{
-position: relative;
-text-align: center;
-margin-bottom: 100px;
-right: 35px;
-font-size: 24px;
-line-height: 30px;
-}
+    html{
+      scroll-behavior: smooth;
+    }
+    body{
+      background-color: #E3E3E3;
+    }
+    /*START of Main Container*/
+    .main-container{
+      width:100%;
+    }
+    .spacer-sml{
+      width:auto;
+      /*margin-top: 75px;*/
+      height:37.5px;
+    }
+    .spacer{
+      width:auto;
+      /*margin-top: 75px;*/
+      height:75px;
+    }
+    .spacer-2x{
+      width:auto;
+      /*margin-top: 75px;*/
+      height:150px;
+    }
+    .small-page-header{
+      margin-top: 75px;
+      height:200px;
+      text-align:center;
+      color: white;
+      padding-top:10px;
+      background-image: url(../images/splash.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    .welcome-abt-ln{
+      font-family: 'Origicide';
+      letter-spacing: 3px;
+      font-weight: 50;
+      margin-top: 57px;
+      padding: 20px;
+      position: absolute;
+      left: 35%;
+      width: 27%;
+      border-radius: 15px;
+      background-color: rgba(0,0,0,0.6);
+    }
+    .about-container{
+      display: block;
+      margin-top:40px;
+    }
+    .about-img{
+      position:absolute;
+      left:38%;
+    }
+    .img-cm{
+      height: 300px;
+      border-radius: 50%;
+    }
+    .about-name{
+      position:absolute;
+      left: 36%;
+      margin-top: 242px;
+    }
+    .name-cm{
+      text-align: center;
+      font-size:55px;
+      font-style: oblique;
+    }
+    /*END OF MAIN CONTAINER*/
+    .line{
+      margin-top: 525px;
+      margin-bottom:10px;
+    }
+    .about-text{
+      padding:0 20px;
+      font-size: 17px;
+      line-height: 34px;
+    }
+    /*This is where my previous websites go*/
+    .sites-container{
+      position: relative;
+      top: 0;
+      height: 1243px;
+      width: 100%;
+    }
+    .sites-col-1{
+      position: absolute;
+      width: 44%;
+      left: 80px;
+    }
+    .sites-col-2{
+        position: absolute;
+        width: 44%;
+        /* padding: 20px; */
+        /* top: 0; */
+        left: 56%;
+        /* margin-right: 200px; */
+    }
+    .sites-images{
+      width:87%;
+    }
+    .dudes-txt{
+      position: relative;
+      text-align: center;
+      margin-bottom: 59px;
+      right: 35px;
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .sites-txt{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10%;
+    right: 35px;
+    font-size: 24px;
+    line-height: 30px;
+    }
+    .ccbc-gap{
+        margin-bottom:59px;
+    }
