@@ -73,7 +73,7 @@
 }
 
 /*For mobile NAV*/
-@media only screen and (max-width: 769px) and (min-width: 320px){
+@media screen and (max-width: 769px) and (min-width: 320px){
 /*    hiding old Navbar*/
 .main-nav{
     display: none;
@@ -208,5 +208,111 @@
     }
     .map{
         left:-5%;
+    }
+    
+/*    PRICING Page*/
+    .pricing-container{
+        height:1600px;
+    }
+    .price-col-1, .price-col-2, .price-col-3{
+            z-index: 0;
+            display: block;
+/*            padding: 0 20px;*/
+            padding:0;
+            margin:0;
+            position: relative;
+            width: 90%;
+            left: 0%;
+            top: 0%;
+    }
+    .price-content{
+        float:left;
+        left:6%;
+        padding:0;
+        margin:0;
+    }
+    .price-logos{
+        width: 26%;
+        left: 42%;
+    }
+    .paypal-embed-code{
+        left:38%;
+    }
+   
+}
+
+/*For iphone 7 and 7+ */
+@media screen and (max-width: 415px) and (min-width: 320px){
+    .small-page-header{
+        height: 157px;
+        
+    }
+    .welcome-abt-ln{
+        top: 2.8%;
+        width: 60%;
+        font-size: 27px;
+        left: 14%;
+    }
+    .unsubscribe{
+        width:75%;
+    }
+    .paypal-unsub {
+    top: 78%;
+    position: relative;
+    left: 15%;
+    }
+    .price-logos{
+        width: 39%;
+        left: 37%;
+    }
+    .unsubscribe h3{
+        text-align: left;
+    }
+    .footer-content{
+        display: inline;
+    }
+    .social-media{
+        left: 30%;
+        top: 1%;
+    }
+    .copyright{
+        position: absolute;
+        left: 27%;
+        top: 46%;
+        font-size: 14px;
+    }
+    .hero{
+        height:493px;
+    }
+    .hero-content{
+        top: 31%;
+        left: 11%;
+        width: 75%;
+    }
+    .welcome-line{
+        left: -20%;
+        position: relative;
+    }
+    .img-cm{
+        height:200px;
+    }
+    .about-img{
+        left:19%;
+        
+    }
+    .name-cm{
+        font-size: 43px;
+    }
+    .about-name{
+       left:6%; 
+       top:9%;    
+    }
+    .line{
+        margin-top: 123%;
+        margin-bottom: 12%;
+        
+    }
+    .about-txt{
+        text-align: center;
     }
 }

@@ -1,35 +1,72 @@
 /*Pricing Area Starts Here*/
 .pricing-container{
+  display: inline-block;
   width: 100%;
   position:relative;
-  height: 1160px;
+  height: 1400px;
+  
   /*padding:0 40px;*/
 }
+.col-border{
+    display: none;
+ border-left: gray 3px solid;
+  border-right: gray 3px solid;
+  border-bottom: gray 3px solid;
+  border-top: #3A53C5 6px solid;
+}
 .price-col-1{
-  padding:0 20px;
-  position: absolute;
-  width:33.33333333333%;
-  left:0px;
+    z-index: 0;
+    display: inline-grid;
+    padding: 0 20px;
+    position: relative;
+    width: 20%;
+    left: 10%;
+    top: 10%;
   /*margin-right: 20px;*/
 }
 .price-col-2{
-  padding:0 20px;
-  position: absolute;
-  left:31.333333%;
-  width:33.33333333333%;
+  display: inline-grid;
+    padding: 0 20px;
+    position: relative;
+    width: 20%;
+    left: 15%;
+    top: 10%
   /*margin-right: 20px;*/
 }
 .price-col-3{
-  padding:0 20px;
-  position: absolute;
-  left: 62.666667%;
-  width:33.33333333333%;
+  display: inline-grid;
+    padding: 0 20px;
+    position: relative;
+    width: 20%;
+    left: 19%;
+    top: 10%;
   /*margin-right: 20px;*/
 }
+.price-content{
+    display:none;
+    padding: 5px;
+    position: relative;
+    left: 6%;
+}
+/*
+#price-content-1{
+    display: block;
+}
+#price-content-2{
+    display: block;
+}
+#price-content-3{
+    display: block;
+} */
 .price-logos{
-  width: 58%;
+  width: 74%;
   position: relative;
-  left: 91px;
+  left: 19%;
+  margin-top:5px;
+  margin-bottom: 10px;
+}
+.price-logos:hover{
+    cursor: pointer;
 }
 .payment-type{
   position:relative;
@@ -47,13 +84,13 @@
 .payment-desc{
   position: relative;
     left: -2%;
-    padding: 0 30px;
+    padding: 0 5px;
     text-align: center;
     line-height: 26px;
 }
 .paypal-embed-code{
   position:relative;
-  left:33%;
+  left:22%;
   width:185px;
 }
 .spacer-even-pay{
@@ -61,10 +98,13 @@
   margin-top: 60px;
 }
 .unsubscribe{
-  position:relative;
-  width: 90%;
-  height:300px;
-  left:30px;
+  display: block;
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    /* bottom: 32%; */
+    left: 5%;
+    top: 86%;
 }
 .unsubscribe hr{
   width:95%;
@@ -76,8 +116,8 @@
   text-align: justify;
 }
 .paypal-unsub{
-  margin-top: 13%;
-  position: relative;
-  left: 3%;
+  top: 61%;
+    position: relative;
+    left: 11%;
 }
 /*Pricing Area ENDS*/
