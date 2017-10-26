@@ -1,6 +1,9 @@
 .mobile-navbar{
     display:none;
 }
+.mob-div-nav{
+    display: none;
+}
 @font-face {
 	font-family: 'Origicide';
 	src:url(../fonts/Origicide.ttf);
