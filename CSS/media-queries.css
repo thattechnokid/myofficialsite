@@ -1,6 +1,6 @@
 @media screen and (max-width: 1921px) and (min-width: 1366px){
     html{
-        min-height: 88%;
+        min-height: 100%;
     }
     .nav-item{
         left: 13%;
@@ -212,17 +212,16 @@
     
 /*    PRICING Page*/
     .pricing-container{
-        height:1600px;
+/*        margin-bottom:1600px;*/
     }
     .price-col-1, .price-col-2, .price-col-3{
             z-index: 0;
             display: block;
-/*            padding: 0 20px;*/
             padding:0;
             margin:0;
             position: relative;
             width: 90%;
-            left: 0%;
+            left: 0;
             top: 0%;
     }
     .price-content{
@@ -233,10 +232,16 @@
     }
     .price-logos{
         width: 26%;
-        left: 42%;
+        left: 36%;
     }
     .paypal-embed-code{
         left:38%;
+    }
+    #price-content-2, #price-content-3{
+        left:6%;
+    }
+    .unsubscribe{
+        bottom:5%;
     }
    
 }
@@ -248,13 +253,14 @@
         
     }
     .welcome-abt-ln{
-        top: 2.8%;
+        top: 64px;
         width: 60%;
         font-size: 27px;
         left: 14%;
     }
     .unsubscribe{
         width:75%;
+        bottom:3%;
     }
     .paypal-unsub {
     top: 78%;
@@ -272,12 +278,12 @@
         display: inline;
     }
     .social-media{
-        left: 30%;
+        left: 35%;
         top: 1%;
     }
     .copyright{
         position: absolute;
-        left: 27%;
+        left: 32%;
         top: 46%;
         font-size: 14px;
     }
@@ -297,22 +303,35 @@
         height:200px;
     }
     .about-img{
-        left:19%;
+        left:26%;
         
     }
     .name-cm{
-        font-size: 43px;
+        font-size: 33px;
     }
     .about-name{
-       left:6%; 
-       top:9%;    
+       left:25%; 
+       top:7%;    
     }
     .line{
-        margin-top: 123%;
+        margin-top: 99%;
         margin-bottom: 12%;
         
     }
     .about-txt{
         text-align: center;
     }
+    .sites-container{
+        margin-bottom: 787px;
+    }
+    .sites-col-1, .sites-col-2{
+        position: relative;
+        left: 11%;
+        width: 88%;
+    }
+    .sites-txt{
+     left: -5%;
+
+    }
+    
 }
